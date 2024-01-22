@@ -1,8 +1,7 @@
 body {
     background-color: rgb(22, 22, 22);
     font-family: Arial, Helvetica, sans-serif;
-    height: 5000px;
-    max-width: 75%;
+    max-width: 50%;
     margin: auto;
 }
 
@@ -39,7 +38,8 @@ body {
     height: 352px;
     object-fit: cover;
     object-position: 50% 50%;
-
+    align-items: center;
+    max-width:100%;
 }
 
 h3 {
@@ -293,4 +293,66 @@ h3 {
 
 .active .answer {
     max-height: 800px;
+}
+
+.footer-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background-color: rgb(26,30,31);
+}
+
+.socialIcons{
+    width: 39px; 
+    height: 39px; 
+    object-fit: cover;
+    display: flex;
+    flex-direction: row;
+}
+
+.footertbclogo img{
+    width: 106px; 
+    height: 30px; 
+    object-fit: cover; 
+    object-position: 50% 50%;
+    
+}
+
+.footertbclogo{
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.copy{
+    font-size:14px;
+    color: rgb(244, 244, 244);
+}
+
+.rights a{
+    color: rgb(244, 244, 244);
+}
+
+.footerbutton button {
+    background-color: #00AEEF;
+    border-radius: 5px;
+    border-style: none;
+    width: 100px;
+    height: 25px;
+}
+
+.footerbutton a{
+    color:#F4F4F4;
+    font-size: 14px;
+}
+
+.firstcolumn{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.secondcolumn{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
 }
