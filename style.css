@@ -262,14 +262,21 @@ body .main-idea,
     max-height: 800px;
 }
 
-footer {
-    background-color: rgb(27, 31, 32);
-    margin-top: 100px;
-    height: 230px;
-    display: flex;
-    justify-content: space-around;
-    padding: 50px 100px;
+
+.footer{
+background-color: rgb(27, 31, 32);
+height: 230px;
+/* padding: 50px 100px ; */
+padding-top: 60px;
+padding-left: 80px;
+display: grid;
+grid-template-columns: 1fr 1fr;
+
 }
+
+
+
+
 
 .tbc-logo {
     width: 106px;
@@ -292,6 +299,218 @@ footer {
     transition: 0.4s;
 }
 
+.social-links a{
+    display: inline-block;
+    height: 40px;
+    width: 40px;
+    background-color: #aca3a3;
+    margin: 0 10px 10px 0;
+    text-align: center;
+    line-height: 40px;
+    border-radius: 50%;
+    color: rgb(27, 31, 32);
+    font-size: 28px;
+}
+
+.social-links{
+    display: flex;
+    height: 50px;
+}
+
+.soc-net{
+    display: flex;
+    justify-self: end;
+}
+
+
+.copyright, a{
+    font-size:14px;
+    color: rgb(244, 244, 244);
+    grid-column: 1/-1;
+   
+    
+}
+
+.terms span{
+    color: rgb(244, 244, 244);
+    font-size: 14px;
+    height: 40px;
+    line-height: 60px;
+}
+
+
+.contact-us a{
+    display: inline-block;
+    background-color: #00AEEF;
+    margin: 0 10px 10px 0;
+    border-radius: 5px;
+    height: 40px;
+    width: 160px;
+    text-align: center;
+    line-height: 38px;
+    color: #F4F4F4;
+    text-decoration: none;
+    transition: 0.4s;
+}
+
+.contact-us a:hover{
+    background-color: #aca3a3;
+    color: #302e2e;
+}
+
+.contact-us{
+    display: flex;
+    justify-self: end;
+    padding-top: 20px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* footer {
+    background-color: rgb(27, 31, 32);
+    margin-top: 80px;
+    height: 230px;
+    display: flex;
+    justify-content: space-around;
+    padding: 50px;
+    
+}
+
+.footer-box{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+     
+} */
+
+
+/* ----------------------------------------------
+.footer{
+    background-color: rgb(27, 31, 32);
+    padding: 70px 0;
+}
+
+.footer-container{
+    max-width: 1170px;
+    margin: auto;
+
+}
+
+.footer-row{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+
+    
+}
+
+.footer-col{
+    width: 50%;
+    
+}
+---------------------------------------------------- */
+
+
+
+/* .footer-item1{
+    padding-left: 100px;
+    padding-right: 150px;
+} */
+
+/* .footer-item2{
+    padding-right: 100px;
+    padding-left: 150px;
+} */
+
+/* -----------------------------------------
+.footer-col ul li:not(:last-child){
+    margin-bottom: 25px;
+}
+
+.footer-col .social-links a{
+    display: inline-block;
+    height: 40px;
+    width: 40px;
+    background-color: #aca3a3;
+    margin: 0 10px 10px 0;
+    text-align: center;
+    line-height: 40px;
+    border-radius: 50%;
+    color: rgb(27, 31, 32);
+    font-size: 28px;
+}
+
+.contact-us a{
+    display: inline-block;
+    background-color: #00AEEF;
+    margin: 0 10px 10px 0;
+    border-radius: 5px;
+    height: 40px;
+    width: 160px;
+    text-align: center;
+    line-height: 38px;
+    color: #F4F4F4;
+    text-decoration: none;
+    transition: 0.4s;
+}
+
+.contact-us a:hover{
+    background-color: #aca3a3;
+    color: #302e2e;
+}
+
+
+---------------------------------- */
+
+
+/* 
+.footer-right-box{
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+    align-items: end;
+  
+}
+
+.soc-icons img{
+    height: 39px;
+    width: 39px;
+    margin-left: 10px;
+}
 .footer-button button {
     height: 39px;
     width: 162px;
@@ -308,10 +527,8 @@ footer {
 .footer-button a:hover {
     color: #302e2e;
 }
+ */
 
-.footer-button button:hover {
-    color: #969191;
-}
 
 
 /* .footer{
