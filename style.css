@@ -1,11 +1,8 @@
-* {
-    box-sizing: border-box;
-}
-
 body {
     background-color: rgb(22, 22, 22);
     margin: auto;
     font-family: 'Noto Sans Georgian', sans-serif;
+    box-sizing: border-box;
 }
 
 body .main-idea,
@@ -24,7 +21,14 @@ body .main-idea,
 .header-container {
     background-color: rgb(27, 31, 32);
     height: 78px;
+    position: fixed;
+    width: 100%;
+    z-index: 100;
+    top: 0;
+}
 
+.main{
+    margin-top: 78px;
 }
 
 .navbar {
@@ -108,7 +112,7 @@ body .main-idea,
     margin: auto;
 }
 
-.container {
+.cards-container {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     column-gap: 30px;
@@ -205,8 +209,7 @@ body .main-idea,
     padding: 0;
     margin: 0;
     box-sizing: border-box;
-    max-width: 980px;
-    min-width: 980px;
+    width: 920px;
     margin: auto;
 }
 
@@ -256,6 +259,7 @@ body .main-idea,
 .answer {
     max-height: 0;
     overflow: hidden;
+    transition: 0.4s;
 }
 
 .questions {
@@ -278,6 +282,7 @@ body .main-idea,
 
 .active .answer {
     max-height: 800px;
+    transition: 0.4s;
 }
 
 .footer-container {

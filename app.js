@@ -20,3 +20,13 @@ allQuestions.forEach((question) => {
     }
   });
 });
+
+window.addEventListener("scroll", () => {
+    var headerContainer = document.getElementsByClassName("header-container")[0];
+  
+    if (window.scrollY > 1) {
+      headerContainer.style.opacity = "0.90";
+    } else {
+      headerContainer.style.opacity = "1";
+    }
+  });
