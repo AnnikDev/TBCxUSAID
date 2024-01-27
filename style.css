@@ -116,7 +116,6 @@ body .main-idea,
     max-width: 1000px;
     padding-bottom: 60px;
     padding-left: 50px;
-
     margin: auto;
 }
 
@@ -140,7 +139,6 @@ body .main-idea,
     color: #F4F4F4;
     font-size: 20px;
     padding: 30px 0 30px 20px;
-
 }
 
 .item5 .registration-status {
@@ -174,7 +172,6 @@ body .main-idea,
 
 .carousel-title {
     color: #F4F4F4;
-
 }
 
 .arrow {
@@ -190,7 +187,6 @@ body .main-idea,
     width: 1080px;
     height: 363px;
     align-items: center;
-
 }
 
 .competitor-logo {
@@ -204,7 +200,6 @@ body .main-idea,
     border-radius: 50%;
     width: 6px;
     height: 6px;
-
 }
 
 .frequently-asked {
@@ -280,7 +275,6 @@ body .main-idea,
     color: rgb(244, 244, 244);
     font-size: 14px;
     line-height: 25px;
-
 }
 
 .active .answer {
