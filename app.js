@@ -20,4 +20,3 @@ allQuestions.forEach((question) => {
     }
   });
 });
-
