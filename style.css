@@ -38,11 +38,6 @@ body {
 .nav-links a {
     text-decoration: none;
     color: #f4f4f4;
-
-    :hover {
-        color: #00aeef;
-        transition-duration: 0.4s;
-    }
 }
 
 .slider-nav-links {
@@ -58,11 +53,11 @@ body {
 .slider-nav-links a {
     text-decoration: none;
     color: #f4f4f4;
+}
 
-    :hover {
-        color: #00aeef;
-        transition-duration: 0.4s;
-    }
+.slider-nav-links a:hover {
+    color: #00aeef;
+    transition-duration: 0.4s;
 }
 
 .main {
@@ -108,11 +103,11 @@ body {
     font-size: 18px;
     font-weight: 700;
     color: #00aeef;
+}
 
-    :hover {
-        color: #969191;
-        transition: 0.4s;
-    }
+.read-more:hover {
+    color: #969191;
+    transition: 0.4s;
 }
 
 .courses-title {
@@ -279,11 +274,11 @@ img {
     flex-direction: row;
     padding: 100px 0 20px;
     justify-content: space-between;
+}
 
-    :hover {
-        color: #969191;
-        transition: 0.4s;
-    }
+.faq-link-top:hover {
+    color: #969191;
+    transition: 0.4s;
 }
 
 .frequently-asked>h2 {
@@ -398,11 +393,12 @@ a {
     font-size: 14px;
     color: rgb(244, 244, 244);
     grid-column: 1/-1;
+}
 
-    :hover {
+.copyright,
+a:hover {
         text-decoration: none;
     }
-}
 
 .terms span {
     color: rgb(244, 244, 244);
@@ -430,12 +426,12 @@ a {
     text-decoration: none;
     transition: 0.4s;
     font-size: 16px;
+}
 
-    :hover {
+.contact-us a:hover {
         background-color: #aca3a3;
         color: #302e2e;
     }
-}
 
 .menu-btn {
     display: none;
@@ -648,8 +644,8 @@ a {
 
     .last-item {
         margin: 0;
-    } 
-    
+    }
+
     .carousel-title {
         padding-left: 30px;
     }
