@@ -40,7 +40,7 @@ body {
     color: #f4f4f4;
 }
 
-.nav-links a:hover {
+.nav-links li,a:hover {
     color: #00aeef;
     transition-duration: 0.4s;
 }
