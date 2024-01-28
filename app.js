@@ -21,17 +21,29 @@ allQuestions.forEach((question) => {
   });
 });
 
-window.addEventListener("scroll", () => {
-    var headerContainer = document.getElementsByClassName("header-container")[0];
-  
-    if (window.scrollY > 1) {
-      headerContainer.style.opacity = "0.90";
-    } else {
-      headerContainer.style.opacity = "1";
-    }
-  });
+document.getElementById("menu-btn").addEventListener("click", function () {
+  var sliderHeader = document.querySelector(".slider-header");
+  sliderHeader.style.display =
+    sliderHeader.style.display === "block" ? "none" : "block";
+});
 
-  let slideIndex = 1;
+document.getElementById("menu-close-btn").addEventListener("click", function () {
+  var sliderHeader = document.querySelector(".slider-header");
+  sliderHeader.style.display =
+    sliderHeader.style.display === "block" ? "none" : "block";
+});
+
+window.addEventListener("scroll", () => {
+  var headerContainer = document.getElementsByClassName("header-container")[0];
+
+  if (window.scrollY > 1) {
+    headerContainer.style.opacity = "0.90";
+  } else {
+    headerContainer.style.opacity = "1";
+  }
+});
+
+let slideIndex = 1;
 showSlides(slideIndex);
 
 function plusSlides(n) {
