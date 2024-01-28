@@ -40,6 +40,11 @@ body {
     color: #f4f4f4;
 }
 
+.nav-links a:hover {
+    color: #00aeef;
+    transition-duration: 0.4s;
+}
+
 .slider-nav-links {
     display: flex;
     flex-direction: column;
