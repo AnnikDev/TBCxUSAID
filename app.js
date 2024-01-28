@@ -30,3 +30,40 @@ window.addEventListener("scroll", () => {
       headerContainer.style.opacity = "1";
     }
   });
+
+  let slideIndex = 1;
+showSlides(slideIndex);
+
+function plusSlides(n) {
+  showSlides((slideIndex += n));
+}
+
+function currentSlide(n) {
+  showSlides((slideIndex = n));
+}
+
+function showSlides(n) {
+  let slides = document.getElementsByClassName("carousel-item");
+
+  if (n > slides.length) {
+    slideIndex = 1;
+  }
+
+  if (n < 1) {
+    slideIndex = slides.length;
+  }
+
+  for (let i = 0; i < slides.length; i++) {
+    slides[i].style.display = "none";
+  }
+
+  slides[slideIndex - 1].style.display = "block";
+}
+
+function startCarouselTimer() {
+  setInterval(() => {
+    plusSlides(1);
+  }, 3000);
+}
+
+startCarouselTimer();
